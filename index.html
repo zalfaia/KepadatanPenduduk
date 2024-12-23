@@ -116,11 +116,11 @@
         function pop_JumlahPendudukPerempuan_1(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
-                        <th scope="row">WADMKC</th>\
+                        <th scope="row">Kecamatan :</th>\
                         <td>' + (feature.properties['WADMKC'] !== null ? autolinker.link(feature.properties['WADMKC'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Perempuan</th>\
+                        <th scope="row">Penduduk Perempuan : </th>\
                         <td>' + (feature.properties['Perempuan'] !== null ? autolinker.link(feature.properties['Perempuan'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
@@ -225,11 +225,11 @@
         function pop_JumlahPendudukLakiLaki_2(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
-                        <th scope="row">WADMKC</th>\
+                        <th scope="row">Kecamatan :</th>\
                         <td>' + (feature.properties['WADMKC'] !== null ? autolinker.link(feature.properties['WADMKC'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Laki</th>\
+                        <th scope="row">Penduduk Laki-Laki :</th>\
                         <td>' + (feature.properties['Laki'] !== null ? autolinker.link(feature.properties['Laki'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
@@ -334,22 +334,22 @@
         function pop_KepadatanPendudukKmJiwa_3(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
-                        <th scope="row">WADMKC</th>\
+                        <th scope="row">Kecamatan :</th>\
                         <td>' + (feature.properties['WADMKC'] !== null ? autolinker.link(feature.properties['WADMKC'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">WADMKK</th>\
+                        <th scope="row">Kabupaten :</th>\
                         <td>' + (feature.properties['WADMKK'] !== null ? autolinker.link(feature.properties['WADMKK'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td class="visible-with-data" id="WADMPR"colspan="2"><strong>WADMPR</strong><br />' + (feature.properties['WADMPR'] !== null ? autolinker.link(feature.properties['WADMPR'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">KP_Pendudu</th>\
+                        <th scope="row">Kepadatan Penduduk (km/jiwa) :</th>\
                         <td>' + (feature.properties['KP_Pendudu'] !== null ? autolinker.link(feature.properties['KP_Pendudu'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Jumlah</th>\
+                        <th scope="row">Jumlah Penduduk :</th>\
                         <td>' + (feature.properties['Jumlah'] !== null ? autolinker.link(feature.properties['Jumlah'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
